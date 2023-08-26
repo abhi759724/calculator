@@ -1,0 +1,88 @@
+
+.mainBox {
+    width: 400px;
+    height: 515px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: #E2E0E0;
+}
+
+.heading {
+    width: 98%;
+    height: 40px;
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.heading h1 {
+    color: white;
+    text-align: center;
+}
+
+#display-container {
+    width: 97%;
+    height: 100px;
+    /* background-color: #F5F5F5; */
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 50px;
+    overflow:visible;
+    background-color: #C14444;
+}
+/* #display{
+    font-size: 2rem;
+    padding: 0px;
+    height: 100px;
+} */
+
+.keyBox {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.button {
+    border: 1px solid black;
+    width: 24.5%;
+    height: 65px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.button0 {
+    border: 1px solid black;
+    width: 49%;
+    height: 65px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.button:hover {
+    background-color: #FFC877;
+    color: black;
+}
+
+.button0:hover {
+    background-color: #FFC877;
+}
+
+.bg-red {
+    background: #C14444;
+    color: white;
+}
